@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    color: white;
+}
+header{ 
+    height: 30px;
+    width: 100%;
+    background-color: green;
+    text-align: center;
+}
+footer{ 
+    height: 30px;
+    width: 100%;
+    background-color: green;
+    text-align: center;
+}
+main{
+    width: 60%;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+h1{
+    font-size: 55px;
+}
+h2{
+    font-size: 45px;
+}
+h3{
+    margin-top: 0;
+    font-size: 35px;
+}
+li{
+    font-size: 35px;
+}
+.quater{
+    margin-right: 10px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px 0px;
+    border: solid;
+    border-width: 5px;
+}
+.main-text{
+    margin: 0;
+    font-size: 35px;
+}
+.link{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+.list-item-rare{
+    color: mediumturquoise;
+    letter-spacing: 5px;
+}
+.end-box{
+    display: inline-block;
+}
+.end{
+    display: flex;
+}
+.end-table{
+    margin: 0;
+    padding: 0;
+}
+table{
+    text-align: center;
+    margin-left: 100px;
+    width: 200px;
+    height: 150px;
+}
+.img{
+    margin-top: 10px;
+    float: right;
+}
