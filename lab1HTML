@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web lab1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <body>
+        <header>
+            <div style="padding-top: 7px; font-family: 'Courier New', Courier, monospace;"> Hello, header!</div>  
+        </header>
+        <main>
+            <section class="main-info">
+                <h1 class="title">
+                    Hello, content!
+                </h1>
+                <div class="quater">
+
+                </div>
+                <p class="main-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis beatae nobis dolores quae neque dolor maxime quisquam quod aperiam autem ducimus rem exercitationem reiciendis saepe porro delectus, aut voluptatibus fuga.
+                </p>
+            </section>
+            <section class="link">
+                <a href="http://www.csd.tsu.ru/" class="link">www.csd.tsu.ru</a>
+            </section>
+            <section class="list">
+                <h2 class="list-title">
+                    <span style="color: red;">
+                        Here 
+                    </span>
+                    <span>
+                        is the list:
+                    </span>
+                </h2>
+                <ul class="value-list">
+                    <li class="list-item">
+                        Value 1
+                    </li>
+                    <li class="list-item-rare">
+                        Value 2
+                    </li>
+                    <li class="list-item">
+                        Value 3
+                    </li>
+                </ul>            
+            </section>
+            <section class="end">
+                <div class="end-box">
+                    <h3>
+                        Here are some visual style
+                    </h3>
+                    <ul style="list-style: none; margin: 0; padding: 0;">
+                        <li>
+                            <i>
+                                Italic
+                            </i>
+                        </li>
+                        <li>
+                            <strong>
+                                Bold
+                            </strong>
+                        </li>
+                        <li>
+                            <u>
+                                UnderLined
+                            </u>
+                        </li>
+                        <li>
+                            <strike>
+                                LineThrough
+                            </strike>
+                        </li>
+                    </ul>
+                </div>
+                <div class="end-table">
+                    <table border="1" >
+                        <tr>
+                            <td valign="bottom"  rowspan="2" style="background-color: green;">
+                                1
+                            </td>
+                            <td valign="bottom">
+                                2
+                            </td>
+                            <td valign="bottom">
+                                3
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="bottom">
+                                4
+                            </td>
+                            <td valign="bottom">
+                                5
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="bottom">
+                                6
+                            </td>
+                            <td valign="bottom" colspan="2" style="background-color: red;">
+                                7
+                            </td>
+                        </tr>
+                    </table>
+                    <img src="img/images.png" alt="" class="img">
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div style="padding-top: 7px;">Hello, Footer!</div>          
+        </footer>
+    </body>
+</html>
